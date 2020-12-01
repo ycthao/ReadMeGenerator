@@ -13,8 +13,8 @@ inquirer
             name: 'username',
         },
     ])
-    .then((response) =>
-        response.confirm === response.password
-            ? console.log('Success!')
-            : console.log('You forgot your password already?!')
+    .then((data) =>
+        fs.writeFile('./Readme/README.md', data, (err) =>
+            err ? console.error(err) : console.log('Success!')
+        )
     );
