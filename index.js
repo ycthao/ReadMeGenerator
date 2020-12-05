@@ -54,7 +54,7 @@ const promptUser = () =>
       type: 'list',
       message: 'Choose your license?',
       name: 'license',
-      choices: ['MIT', 'Apache', 'telekinesis'],
+      choices: ['MIT', 'Apache'],
     },
     { // asking for email
       type: 'input',
@@ -121,6 +121,8 @@ GitHub: ${answers.github}
 For additional questions, please email me at ${answers.email} with "${answers.title} question" in the subject line.
   `; // closing generateREADME
 
+
+
 const getLicense = (answers) => {
   if (answers.license.choices === "MIT") {
     const MIT = 
@@ -169,6 +171,9 @@ limitations under the License.
 
 
 }
+
+
+
 
 
 promptUser()
