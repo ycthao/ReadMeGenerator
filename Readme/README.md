@@ -1,36 +1,40 @@
-# create me # 
+# My Secret Room  
 
 ![NPM](https://img.shields.io/npm/l/inquirer)
 
-## Description ## 
+## Description 
 
-it create an alternate version of me in the virtual world. 
+It create a safe room for someone to dump all of their emotions.  And based on the emotions, emoji will come up along with some music 
 
-## Table of Contents ##
+## Table of Contents 
 
+- [Description](#Description)
+- [Table of Contents](#Table-of-Contents)
+- [Installation](#Installation)
+- Usage
+- Contributing
+- Tests
+- License
+- Author
+- Questions
 
+## Installation 
 
-## Installation ##
+No installation needed. 
 
-no installation needed, just click on the link to open 
+## Usage 
 
-## Usage ##
+Simply open the app using the link provided and follow direction 
 
-click on the link provided to open, then follow instruction to use create me 
+## Contributing 
 
-## Contributing ##
+No one 
 
-just me 
+## Tests 
 
-## Tests ##
+no test done 
 
-no test was run 
-
-## Author ##
-
-steve 
-
-## License ##
+## License 
 
 (answers) => {
   if (answers.license.choices === "MIT") {
@@ -81,11 +85,13 @@ limitations under the License.
 
 }
 
-## Question ##
+## Author 
+
+Steve Thao 
+
+## Question 
 
 GitHub: ycthao
 
-For additional questions, please email me at ycthao with "create me question" in the subject line.
-
-
-    
+For additional questions, please email me at ycthao with "My Secret Room question" in the subject line.
+  
