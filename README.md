@@ -31,7 +31,7 @@ In Visual Studio Code, install dependencies from the package.json file.
 
 ## Contributing 
 
-Yeem Chij Thao
+Yeem Chij Thao and any future contribution is welcome.
 
 ## Tests 
 
