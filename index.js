@@ -80,7 +80,15 @@ ${answers.description}
 
 ## Table of Contents ##
 
-
+Description
+Table of Contents
+Installation
+Usage
+Contributing
+Tests
+License
+Author
+Questions
 
 ## Installation ##
 
@@ -98,23 +106,20 @@ ${answers.contributor}
 
 ${answers.test} 
 
-## Author ##
-
-${answers.author} 
-
 ## License ##
 
 ${getLicense}
+
+## Author ##
+
+${answers.author} 
 
 ## Question ##
 
 GitHub: ${answers.github}
 
 For additional questions, please email me at ${answers.email} with "${answers.title} question" in the subject line.
-
-
-    `
-  ;
+  `; // closing generateREADME
 
 const getLicense = (answers) => {
   if (answers.license.choices === "MIT") {
