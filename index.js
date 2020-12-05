@@ -59,7 +59,7 @@ const generateREADME = (answers) =>
 ## License ##
 
 MIT License
-[image]:https://img.shields.io/apm/l/mit[APM][/image]
+![image]:https://img.shields.io/apm/l/mit[APM]
 Copyright (c) [${answers.year}] [${answers.author}]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
