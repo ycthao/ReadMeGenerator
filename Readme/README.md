@@ -1,4 +1,4 @@
-# Erase Everything # 
+# yah # 
 
 ## Description ## 
 
@@ -11,8 +11,6 @@
 
 ## Usage ##
 
-
-## License ##
 
 
 ## Contributing ##
@@ -30,8 +28,8 @@
 ## License ##
 
 MIT License
-
-Copyright (c) [2020] [Steve Thao]
+[image]:https://img.shields.io/apm/l/mit[APM][/image]
+Copyright (c) [2020] [steve]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
