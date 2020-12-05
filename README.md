@@ -20,10 +20,10 @@ The purpose of this README Generator is to help a user to create a simple README
 
 ## Installation 
 
-This apps will require node.js and requires npm inquirer package.
-To download node.js, go to https://nodejs.org/en/ and click download on the current version.
-Download index.js or clone repository from https://github.com/ycthao/ReadMeGenerator
-In Visual Studio Code, install dependencies from the package.json file.
+- This apps will require node.js and requires npm inquirer package.
+- To download node.js, go to https://nodejs.org/en/ and click download on the current version.
+- Download index.js or clone repository from https://github.com/ycthao/ReadMeGenerator
+- In Visual Studio Code, install dependencies from the package.json file.
 
 ## Usage 
 
