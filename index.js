@@ -10,20 +10,62 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 const promptUser = () =>
   inquirer.prompt([
-    {
+    { // Asking for title
       type: 'input',
       name: 'title',
       message: 'What is the name of your project?',
     },
-    {
+    { // asking for author
       type: 'input',
       name: 'author',
       message: 'What is the name of the author?',
     },
-    {
+    { // asking for year the project was written
       type: 'input',
       name: 'year',
       message: 'What year is this project written?',
+    },
+    { // asking for description
+      type: 'input',
+      name: 'description',
+      message: 'Describe what your app does:',
+    },
+    {  // asking how to install app
+      type: 'input',
+      name: 'installation',
+      message: 'How to install app?',
+    },
+    {  // asking how to use app
+      type: 'input',
+      name: 'usage',
+      message: 'How do you use the app?',
+    },
+    {  // asking for contributor
+      type: 'input',
+      name: 'contributor',
+      message: 'Who contributed to the app development?',
+    },
+    {  // asking for test
+      type: 'input',
+      name: 'test',
+      message: 'Was any test done and how to run them?',
+    },
+    { // asking for license
+      type: 'list',
+      message: 'Choose your license?',
+      name: 'license',
+      choices: ['MIT', 'Apache', 'telekinesis'],
+    },
+
+    { // asking for email
+      type: 'input',
+      name: 'email',
+      message: 'What is your email?',
+    },
+    { // asking for github
+      type: 'input',
+      name: 'github',
+      message: 'What is your GitHub?',
     },
   ]);
 
@@ -33,31 +75,50 @@ const generateREADME = (answers) =>
 
 ## Description ## 
 
+${answers.description} 
 
 ## Table of Contents ##
 
 
+
 ## Installation ##
 
+${answers.installation} 
 
 ## Usage ##
 
-
+${answers.usage} 
 
 ## Contributing ##
 
+${answers.contributor} 
 
 ## Tests ##
 
-
-## Credits ##
-
+${answers.test} 
 
 ## Author ##
 
+${answers.author} 
 
 ## License ##
 
+${getLicense}
+
+## Question ##
+
+GitHub: ${answers.github}
+
+For additional questions, please email me at ${answers.email} with "${answers.title} question" in the subject line.
+
+
+    `
+  ;
+
+const getLicense = (answers) => {
+  if (answers.license.choices === "MIT") {
+    const MIT = 
+    `
 MIT License
 
 Copyright (c) [${answers.year}] [${answers.author}]
@@ -79,12 +140,32 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
+`
+    return MIT;
+  } else if (answers.license === "Apache") {
+    const apache =
     `
-  ;
+Copyright [yyyy] [name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+    `
+  }
+
+
+}
+
 
 promptUser()
   .then((answers) => writeFileAsync('./Readme/README.md', generateREADME(answers)))
-  .then(() => console.log('Successfully wrote to index.html'))
+  .then(() => console.log('Successfully wrote to README.md'))
   .catch((err) => console.error(err));
