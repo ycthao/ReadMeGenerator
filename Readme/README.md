@@ -1,8 +1,10 @@
-# tell lies only # 
+# create me # 
+
+![NPM](https://img.shields.io/npm/l/inquirer)
 
 ## Description ## 
 
-this app is design to tell lies and only lies about someone. 
+it create an alternate version of me in the virtual world. 
 
 ## Table of Contents ##
 
@@ -10,15 +12,15 @@ this app is design to tell lies and only lies about someone.
 
 ## Installation ##
 
-no installation is needed 
+no installation needed, just click on the link to open 
 
 ## Usage ##
 
-open the app using the link provided 
+click on the link provided to open, then follow instruction to use create me 
 
 ## Contributing ##
 
-just myself 
+just me 
 
 ## Tests ##
 
@@ -81,9 +83,9 @@ limitations under the License.
 
 ## Question ##
 
-GitHub: ycthao.github.com
+GitHub: ycthao
 
-For additional questions, please email me at ycthao@gmail.com with "tell lies only question" in the subject line.
+For additional questions, please email me at ycthao with "create me question" in the subject line.
 
 
     
