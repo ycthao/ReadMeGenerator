@@ -56,7 +56,6 @@ const promptUser = () =>
       name: 'license',
       choices: ['MIT', 'Apache', 'telekinesis'],
     },
-
     { // asking for email
       type: 'input',
       name: 'email',
@@ -72,6 +71,8 @@ const promptUser = () =>
 
 const generateREADME = (answers) =>
   `# ${answers.title} # 
+
+![NPM](https://img.shields.io/npm/l/inquirer)
 
 ## Description ## 
 
