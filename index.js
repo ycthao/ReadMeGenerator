@@ -116,9 +116,9 @@ ${answers.author}
 
 ## Question 
 
-GitHub: ${answers.github}
+GitHub: [${answers.github}]
 
-For additional questions, please email me at ${answers.email} with "${answers.title} question" in the subject line.
+For additional questions, please email me at [${answers.email}] with "${answers.title} question" in the subject line.
   `; // closing generateREADME
 
 const getLicense = (answers) => {
