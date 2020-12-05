@@ -1,38 +1,38 @@
-# My Secret Room  
+# Creating links  
 
 ![NPM](https://img.shields.io/npm/l/inquirer)
 
 ## Description 
 
-It create a safe room for someone to dump all of their emotions.  And based on the emotions, emoji will come up along with some music 
+creating likns 
 
 ## Table of Contents 
 
 - [Description](#Description)
 - [Table of Contents](#Table-of-Contents)
 - [Installation](#Installation)
-- Usage
-- Contributing
-- Tests
-- License
-- Author
-- Questions
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [License](#License)
+- [Author](#Author)
+- [Questions](#Question)
 
 ## Installation 
 
-No installation needed. 
+no install 
 
 ## Usage 
 
-Simply open the app using the link provided and follow direction 
+open and follow direction 
 
 ## Contributing 
 
-No one 
+noone 
 
 ## Tests 
 
-no test done 
+none 
 
 ## License 
 
@@ -87,11 +87,11 @@ limitations under the License.
 
 ## Author 
 
-Steve Thao 
+steve 
 
 ## Question 
 
-GitHub: ycthao
+GitHub: [ycthao]
 
-For additional questions, please email me at ycthao with "My Secret Room question" in the subject line.
+For additional questions, please email me at [ycthao] with "Creating links question" in the subject line.
   
