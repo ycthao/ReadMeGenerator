@@ -1,10 +1,10 @@
-# Fish me  
+# Sample  
 
 ![NPM](https://img.shields.io/npm/l/inquirer)
 
 ## Description 
 
-A fishing game. 
+This is just to generate a sample. 
 
 ## Table of Contents 
 
@@ -20,19 +20,19 @@ A fishing game.
 
 ## Installation 
 
-No installation 
+No installation needed 
 
 ## Usage 
 
-Open using link and following direction on how to play the game. 
+Open using link and follow instruction 
 
 ## Contributing 
 
-Just me for now. 
+Yeem Chij Thao, and any contribution is welcome 
 
 ## Tests 
 
-None right now. 
+None 
 
 ## License 
 
@@ -40,11 +40,11 @@ MIT
 
 ## Author 
 
-Steve Thao 
+Yeem Chij Thao 
 
 ## Question 
 
-GitHub: ycthao
+GitHub: sample.github.com
 
-For additional questions, please email me at ycthao with "Fish me question" in the subject line.
+For additional questions, please email me at sample@sample.com with "Sample question" in the subject line.
   
