@@ -70,51 +70,51 @@ const promptUser = () =>
 
 
 const generateREADME = (answers) =>
-  `# ${answers.title} # 
+  `# ${answers.title}  
 
 ![NPM](https://img.shields.io/npm/l/inquirer)
 
-## Description ## 
+## Description 
 
 ${answers.description} 
 
-## Table of Contents ##
+## Table of Contents 
 
-Description
-Table of Contents
-Installation
-Usage
-Contributing
-Tests
-License
-Author
-Questions
+- [Description](#Description)
+- [Table of Contents](#Table-of-Contents)
+- [Installation](#Installation)
+- Usage
+- Contributing
+- Tests
+- License
+- Author
+- Questions
 
-## Installation ##
+## Installation 
 
 ${answers.installation} 
 
-## Usage ##
+## Usage 
 
 ${answers.usage} 
 
-## Contributing ##
+## Contributing 
 
 ${answers.contributor} 
 
-## Tests ##
+## Tests 
 
 ${answers.test} 
 
-## License ##
+## License 
 
 ${getLicense}
 
-## Author ##
+## Author 
 
 ${answers.author} 
 
-## Question ##
+## Question 
 
 GitHub: ${answers.github}
 
