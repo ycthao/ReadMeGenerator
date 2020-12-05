@@ -83,12 +83,12 @@ ${answers.description}
 - [Description](#Description)
 - [Table of Contents](#Table-of-Contents)
 - [Installation](#Installation)
-- Usage
-- Contributing
-- Tests
-- License
-- Author
-- Questions
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [License](#License)
+- [Author](#Author)
+- [Questions](#Question)
 
 ## Installation 
 
