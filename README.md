@@ -27,7 +27,7 @@ In Visual Studio Code, install dependencies from the package.json file.
 
 ## Usage 
 
-
+![image](https://github.com/ycthao/ReadMeGenerator/blob/main/Images/readmegeneratorgif.gif?raw=true)
 
 ## Contributing 
 
