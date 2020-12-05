@@ -1,10 +1,10 @@
-# Creating links  
+# d  
 
 ![NPM](https://img.shields.io/npm/l/inquirer)
 
 ## Description 
 
-creating likns 
+j 
 
 ## Table of Contents 
 
@@ -20,19 +20,19 @@ creating likns
 
 ## Installation 
 
-no install 
+tyt 
 
 ## Usage 
 
-open and follow direction 
+rgr 
 
 ## Contributing 
 
-noone 
+grg 
 
 ## Tests 
 
-none 
+rg 
 
 ## License 
 
@@ -87,11 +87,11 @@ limitations under the License.
 
 ## Author 
 
-steve 
+b 
 
 ## Question 
 
-GitHub: [ycthao]
+GitHub: fd
 
-For additional questions, please email me at [ycthao] with "Creating links question" in the subject line.
+For additional questions, please email me at fbd with "d question" in the subject line.
   
